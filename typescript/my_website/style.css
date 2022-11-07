@@ -1,0 +1,106 @@
+body{
+    background-color: azure; 
+    line-height: 1.6em;
+    margin: 0;
+    font-size :16px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #555;
+    
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#main-header{
+    background-color: aquamarine;
+    color:tomato;
+    padding: 10px;
+    /* position: fixed; */
+
+
+}
+#nav-bar{
+    background-color: #555;
+    color: aliceblue;
+}
+
+#nav-bar ul{
+    padding: 0;
+    list-style: none;
+}
+#nav-bar li{
+    display: inline;
+    padding-right:100px ;
+    font-size: 18px;
+
+}
+
+#nav-bar a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+#showcase{
+    background: url(/images/val.png);
+    position: no-repeat center;
+    min-height: 300px;
+    width: 100%;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    line-height: 1.6em;
+    text-align: center;
+    padding-top: 30px;
+    color: antiquewhite;
+}
+#showcase button{
+    padding: 9px;
+    background-color: #555;
+    color: aliceblue;
+    border-radius: 10px;
+    cursor: pointer;
+    
+
+}
+
+#showcase button:hover{
+    background-color: coral;
+    color: black;
+}
+#main{
+    border: 2px solid greenyellow;
+    float: left;
+    width: 70%;
+    box-sizing: border-box;
+    padding: 0 30px;
+    }
+#side-bar{
+    float: right;
+    box-sizing: border-box;
+    border: 1px solid lightgreen;
+    padding: 0;
+    width: 30%;
+}
+
+
+#main-footer{
+    background-color: darkgray;
+    color: rgb(231, 243, 243);
+    padding: 15px;
+    margin-top: 5px;
+    line-height: 1.4rem;
+    text-align: center;
+
+}
+
+@media(max-width:600px){
+    #main{
+        float: none;
+       width: 100%;
+    }
+    #side-bar{
+        float: none;
+        width: 100%;
+    }
+}
